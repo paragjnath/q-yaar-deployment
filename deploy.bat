@@ -36,7 +36,7 @@ if %ERRORLEVEL% neq 0 (
 echo Successfully committed changes.
 
 echo Step 5: Pushing changes to main branch...
-git push origin main
+git push origin master
 if %ERRORLEVEL% neq 0 (
     echo Error: Git push failed
     exit /b 1
